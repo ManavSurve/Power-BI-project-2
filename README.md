@@ -58,7 +58,7 @@ DAX Function:'
 
 - Step 7 : Create new measure as Average Demand Per Day
 - 
-DAX Function:
+Following DAX expression was written:
 
     Average Demand Per Day = DIVIDE([Total Demand],[Total Numbers of Days])
 
@@ -68,7 +68,7 @@ A Card chart was used to represent Average Demand Per Day:
 
 - Step 8 : Create new measure as Average Availability Per Day
 
-DAX Function;
+Following DAX expression was written;
 
     Average Availability Per Day = DIVIDE([Total Availabity],[Total Numbers of Days])
 
@@ -78,7 +78,7 @@ A Card chart was used to representA Average Availability Per Day:
 
 - Step 9 : Create new measure as Total Supply Shortage
 
-DAX Function:
+Following DAX expression was written:
 
     Total Supply Shortage = [Total Demand]-[Total Availabity]
 
@@ -90,7 +90,7 @@ A Card chart was used to representA Total Supply Shortage :
 
 - Step 11 : Create new measure as Total Profit
 
-DAX Function:
+Following DAX expression was written:
 
     Total Profit = SUMX(FILTER('Demand/Availability','Demand/Availability'[LOSS/PROFIT]>0),'Demand/Availability'[LOSS/PROFIT]*'Demand/Availability'[Unit_price])
 
@@ -100,7 +100,7 @@ A Card chart was used to representA  Total Profit :
 
 - Step 12 : Create new measure as  TOTAL Loss
 
-DAX Function :
+Following DAX expression was written :
 
     TOTAL Loss = SUMX(FILTER('Demand/Availability','Demand/Availability'[LOSS/PROFIT]<0),'Demand/Availability'[LOSS/PROFIT]*'Demand/Availability'[Unit_price])* -1
 
@@ -110,7 +110,7 @@ A Card chart was used to representA   TOTAL Loss :
 
 - Step 13 : Create new measure as Average Loss Per Day
 
-DAX Function ;
+Following DAX expression was written ;
 
     Average Loss Per Day = DIVIDE([TOTAL Loss],[Total Numbers of Days])
 
