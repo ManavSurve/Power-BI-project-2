@@ -54,7 +54,8 @@
     
 
 - Step 6 : Creating the DAX Measures & KPIs for Page 1
-DAX Function:
+DAX Function:'
+
 - Step 7 : Create new measure as Average Demand Per Day
 - 
 DAX Function:
@@ -63,7 +64,7 @@ DAX Function:
 
 A Card chart was used to represent Average Demand Per Day:
 
-"https://github.com/user-attachments/assets/b48504c2-f813-4d2b-9710-b733dec9b240"
+![Image](https://github.com/user-attachments/assets/98f1998c-88ae-4a7c-86d7-8e7fc86e7785)
 
 - Step 8 : Create new measure as Average Availability Per Day
 
@@ -73,7 +74,7 @@ DAX Function;
 
 A Card chart was used to representA Average Availability Per Day:
 
-"https://github.com/user-attachments/assets/94238c24-11d5-4b57-865f-4f5b6b207ee5"
+![Image](https://github.com/user-attachments/assets/89925afe-6972-4d12-9654-a608ebb7105b)
 
 - Step 9 : Create new measure as Total Supply Shortage
 
@@ -83,7 +84,7 @@ DAX Function:
 
 A Card chart was used to representA Total Supply Shortage :
 
-"https://github.com/user-attachments/assets/15a7bcc1-83e7-41ce-b049-71a81a463bc1"
+![Image](https://github.com/user-attachments/assets/2637ddce-ce4d-45f1-92c2-a84219831339)
 
 - Step 10 : Creating the DAX Measures & KPIs for Page 2
 
@@ -95,7 +96,7 @@ DAX Function:
 
 A Card chart was used to representA  Total Profit :
 
-"https://github.com/user-attachments/assets/f7508d45-01a6-458f-9a68-fd4136bbd3e7"
+![Image](https://github.com/user-attachments/assets/66a3a9f1-e105-4af0-9f5f-df9acb3ccd4d)
 
 - Step 12 : Create new measure as  TOTAL Loss
 
@@ -105,7 +106,7 @@ DAX Function :
 
 A Card chart was used to representA   TOTAL Loss :
 
-"https://github.com/user-attachments/assets/d8cf9cd0-c3de-4432-ae25-8fecd04daf82" 
+![Image](https://github.com/user-attachments/assets/8c9351d1-d4f7-46db-b161-bc6ce00931b7)
 
 - Step 13 : Create new measure as Average Loss Per Day
 
@@ -115,7 +116,7 @@ DAX Function ;
 
 A Card chart was used to representA  Average Loss Per Day :
 
-"https://github.com/user-attachments/assets/f88a44f3-3ff9-4e43-9e36-6245f491c3ea"
+![Image](https://github.com/user-attachments/assets/7c2448cc-c3df-4f46-9a43-5115c38099cf)
 
 - Step 14 : Importing Data into Production Environment in SQL Server
 
@@ -134,6 +135,14 @@ A Card chart was used to representA  Average Loss Per Day :
 - Step 20 : Data Validation & Publishing New report to MYSQL Database Workspace
 
 
+
+# Report Snapshot (Power BI DESKTOP)
+![Image](https://github.com/user-attachments/assets/5ae84fa8-eb70-4829-a2ef-4db12622e6e6)
+
+# Report Snapshot (Power BI DESKTOP)
+![Image](https://github.com/user-attachments/assets/45b12fcc-0866-427f-8a45-b62f2992dc96)
+
+
 # Insights
 
 1) Average Demand Per Day = 3.40
@@ -142,14 +151,6 @@ A Card chart was used to representA  Average Loss Per Day :
 4) Total Profit = 22k
 5) Total Loss = 97K
 6) Average Daily Loss = 88.84
-
-# Report Snapshot (Power BI DESKTOP)
-"https://github.com/user-attachments/assets/0bcd254a-17ef-4755-b677-a8faf1e9daa4"   
-
-# Report Snapshot (Power BI DESKTOP)
-"https://github.com/user-attachments/assets/f49b589a-50e0-4b55-8a27-85d79cf1a502"
-
-
 
 
 
