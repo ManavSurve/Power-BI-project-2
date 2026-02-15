@@ -1,21 +1,19 @@
 
-## Data Source:MYSQL Datasource and SQL Server
+## Advanced Business Intelligence & Data Modeling (Power BI)
 
-### Dashboard Link : https://app.powerbi.com/groups/me/reports/384d017e-e935-44dc-9e7d-1626c1a36de1/ReportSection
+
 
 ## Problem Statement
-1. The Business Context
-​Modern businesses often operate with fragmented data stored across multiple relational database systems (e.g., MySQL for transactional web data and SQL Server for internal ERP/Financial records). This "data silo" effect prevents leadership from seeing the direct correlation between supply chain bottlenecks and financial losses.
-​2. The Core Problem
-​The organization currently lacks a unified view of its operational health. Specifically, there is an inability to:
-​Quantify Supply Gaps: Without real-time tracking of "Average Demand" vs. "Average Availability," the company cannot accurately predict or mitigate "Supply Shortages."
-​Link Operations to Finance: Financial teams see a "Total Loss" of 97K but cannot easily trace which supply chain inefficiencies or daily loss patterns (Average Daily Loss: 88.84) are driving those numbers.
-​Manual Reporting Latency: Data residing in separate MySQL and SQL Server environments requires manual consolidation, leading to delayed decision-making.
-​3. The Solution (Project Goal)
-​The objective of this Power BI project is to develop an integrated Business Optimization Dashboard that:
-​Extracts and Transforms: Pulls disparate data from MySQL and SQL Server into a single, cohesive data model.
-​Visualizes Key Metrics: Provides at-a-glance KPIs for Profit/Loss and Supply Chain metrics to identify high-friction areas.
-​Enables Data-Driven Decisions: Empowers stakeholders to reduce the "Total Supply Shortage" (currently at 579 units) by aligning availability more closely with daily demand.
+​Objective: Engineered a complex data model to analyze multi-dimensional business data, focusing on advanced analytical patterns and performance optimization.
+
+​Complex DAX Implementation: Developed advanced DAX measures including Iterative Functions (SUMX, RANKX), Filter Context manipulation (CALCULATE, ALL, FILTER), and Time Intelligence to track Year-over-Year (YoY) and Quarter-to-Date (QTD) performance.
+
+​Data Architecture: Designed a robust Star Schema with multiple Fact and Dimension tables, ensuring data integrity and optimizing query speeds for large datasets.
+
+​Dynamic Reporting: Created dynamic "What-If" parameters to allow stakeholders to simulate different business scenarios and their impact on profit margins.
+
+​Outcome: Transformed raw, unstructured data into a high-performance analytical tool, enabling leadership to make data-driven decisions based on real-time trend analysis.
+
 ### Steps followed 
 
 - Step 1 :Installing MYSQL Server & MYSQL Workbench
